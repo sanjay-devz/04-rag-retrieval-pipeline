@@ -72,7 +72,7 @@ Keep it concise — under 200 words for the body.""",
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Email Drafting Agent")
+    parser = argparse.ArgumentParser(description="Email Drafting - Agent")
     parser.add_argument("--context", default="Follow up on our product demo from last Tuesday. They seemed interested but haven't responded.", help="Email context/purpose")
     parser.add_argument("--tone", default="professional and friendly", help="Email tone")
     parser.add_argument("--recipient", default="a potential client", help="Who the email is for")
