@@ -3,7 +3,7 @@ Email Drafting Agent using CrewAI.
 
 A two-agent crew that drafts professional emails:
 - Analyst agent: understands context and tone requirements
-- Writer agent: drafts the final email
+- Writer agent: drafts the (final email)
 
 Usage:
     python agent.py
