@@ -123,4 +123,31 @@ def main():
     if args.transcript:
         with open(args.transcript) as f:
             transcript = f.read()
-        print(f"\n📝 Processing: 
+        print(f"\n📝 Processing:
+{args.transcript}\n")
+    elif args.text:
+        transcript = args.text
+        print("\n📝 Processing transcript...\n")
+    else:
+        print("\n📝 Using sample meeting transcript\n")
+        transcript = SAMPLE_TRANSCRIPT
+
+    notes = generate_meeting_notes(transcript)
+    formatted = format_notes(notes)
+
+    print("=" * 60)
+    print(formatted)
+    print("=" * 60)
+
+    # Save to file
+    output_file = args.output
+    if os.path.exists(output_file) and args.output == "meeting_notes.md":
+        stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        output_file = f"meeting_notes_{stamp}.md"
+    with open(output_file, "w") as f:
+        f.write(formatted)
+    print(f"\n✅ Saved to: {output_file}")
+
+
+if __name__ == "__main__":
+    main() 
