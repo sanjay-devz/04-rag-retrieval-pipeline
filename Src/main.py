@@ -3,8 +3,8 @@ from text_chunker import chunk_text
 from embedder import create_embeddings
 from vector_store import create_vector_store
 from prompt_builder import build_prompt
-from retriever import 
-from numpy import 
+from retriever import retrieve
+from numpy import pi
 
 pdf_path = "50_Gen_AI_Product_Ideas_E2E.pdf"
 
