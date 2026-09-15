@@ -2,10 +2,7 @@
 Meeting Notes Agent.
 
 Converts meeting transcript text into structured meeting notes:
-summary, action items, decisions, and follow-ups.
-
-Usage:
-    python agent.py --transcn agent.py --text "John: Let's ship v2 next Friday..."
+summary, action items, decisions, and follotranscn agent.py --text "John: Let's ship v2 next Friday..."
 """
 
 import argparse
