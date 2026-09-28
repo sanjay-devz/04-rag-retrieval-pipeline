@@ -10,7 +10,7 @@ Usage:
 """
 
 import argparse
-import json
+import jso
 import os
 import re
 from datetime import date, datetime
