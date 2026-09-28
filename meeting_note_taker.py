@@ -9,7 +9,7 @@ Usage:
     python agent.py --text "John: Let's ship v2 next Friday..."
 """
 
-import argpars
+import argparse
 import json
 import os
 import re
