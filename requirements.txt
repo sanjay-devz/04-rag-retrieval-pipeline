@@ -1,4 +1,19 @@
+<<<<<<< HEAD
 pypdf
 sentence-transformers
 faiss-cpu
 google-genai
+=======
+pypdf
+sentence-transformers
+faiss-cpu
+<<<<<<< HEAD
+google-genai
+=======
+
+import modules 
+
+>>>>>>> HEADED FOLDER
+File path
+File path
+>>>>>>> 114e1da9faebecbda42a005d18fee95fb1e46098
